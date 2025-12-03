@@ -1,5 +1,5 @@
 //Datatypes and ECMA
-
+// Part 01: //
 "use strict";//  treats all JS code as newer version
 
 //alert(3+3) the syntax is invalid for IDE but if you are using browser in console mode then it will work
@@ -33,7 +33,7 @@ Interserting thing is that the typeof null is object it is said that this the er
 */
 
 
-
+// Part 02:  //
 //       Conversion of datatypes        //
 
 let score=33
@@ -73,5 +73,23 @@ console.log([isLoggedIn,typeof isLoggedIn, boolisLoggesIn, typeof boolisLoggesIn
 //If the varible is having empty string then after conversion it return false and if the string is present then it returns true value
 
 let num=33
+let NegValue= -33
 let Strnum=String(num)
 console.log([num, typeof num, Strnum, typeof Strnum])
+
+//  Part 03  //
+// Operations //
+// All the operations are just like in any other language +,-,/,*,%,**(Power); two add teo strings we use + operator
+//interesting thing is below
+
+console.log("1"+2) //output is 12
+console.log(1+"2")//output is 12
+console.log("1"+2+2)// output is 122
+console.log(1+2+"2")//output is 32
+
+// in 4th case it will first add the numbers and the it will then add to string addition format bcz at last string is present
+
+console.log(+true)//this method converts bool in number
+console.log(+true + 2)//converts into number and then adds them
+console.log(+"")//converts string into number
+
