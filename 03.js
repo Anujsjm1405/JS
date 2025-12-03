@@ -93,3 +93,9 @@ console.log(+true)//this method converts bool in number
 console.log(+true + 2)//converts into number and then adds them
 console.log(+"")//converts string into number
 
+// Part 04 //
+console.log("2">1)// output is true bcz js automatically converts string into number for comparison
+
+console.log(null>0)//output is false
+console.log(null==0)//output is false
+console.log(null>=0)//output is true
