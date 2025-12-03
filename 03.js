@@ -32,3 +32,46 @@ Interserting thing is that the typeof null is object it is said that this the er
 
 */
 
+
+
+//       Conversion of datatypes        //
+
+let score=33
+console.log(score)
+console.log(typeof score)
+
+let scores="33"
+console.log(scores)
+console.log(typeof scores)
+let convert=Number(scores)  //you change the datatype typecasting it to required datatype but that datatype should have its first letter in capital i.e NUmber not number or String not string
+console.log(typeof convert)
+console.log(convert)
+
+let s="33abc"
+console.log(s)
+console.log(typeof s)
+let conv=Number(s)
+console.log(typeof conv)
+console.log(conv)// NaN stands for Not a Number as s=33abc as a string 33 can be converted into number but abc can't so at the end of the execution the output generated is NaN.
+
+let a=null
+console.log(a)//gives output as 0
+let b=undefined
+console.log(b)// gives output as NaN
+
+//console.log for bool varible is 1 for true value and 0 for false
+
+let n="Max"
+let ns=Number(n)
+console.log([n, typeof n])
+console.log([ns, typeof ns])
+
+let isLoggedIn=1
+let boolisLoggesIn=Boolean(isLoggedIn)
+console.log([isLoggedIn,typeof isLoggedIn, boolisLoggesIn, typeof boolisLoggesIn])
+//For number datatype is the value is 1 or greater than 1 then it is always true and when it is 0 then it returns false
+//If the varible is having empty string then after conversion it return false and if the string is present then it returns true value
+
+let num=33
+let Strnum=String(num)
+console.log([num, typeof num, Strnum, typeof Strnum])
